@@ -14,6 +14,11 @@
 		5DC89C6D19BE274D00A75324 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC89C6C19BE274D00A75324 /* Images.xcassets */; };
 		5DC89C7919BE274D00A75324 /* VehiclesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC89C7819BE274D00A75324 /* VehiclesTests.swift */; };
 		5DC89C8319BE289D00A75324 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC89C8219BE289D00A75324 /* Vehicle.swift */; };
+		A74DD17D1BE407FD0084C7B7 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74DD17C1BE407FD0084C7B7 /* Car.swift */; };
+		A74DD17F1BE408FE0084C7B7 /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74DD17E1BE408FE0084C7B7 /* Motorcycle.swift */; };
+		A74DD1811BE409410084C7B7 /* Truck.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74DD1801BE409410084C7B7 /* Truck.swift */; };
+		A74DD1831BE409BE0084C7B7 /* UIAlertController+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74DD1821BE409BE0084C7B7 /* UIAlertController+Convenience.swift */; };
+		A74DD1871BE40AC50084C7B7 /* VehicleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74DD1861BE40AC50084C7B7 /* VehicleList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,11 @@
 		5DC89C7719BE274D00A75324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DC89C7819BE274D00A75324 /* VehiclesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesTests.swift; sourceTree = "<group>"; };
 		5DC89C8219BE289D00A75324 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		A74DD17C1BE407FD0084C7B7 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		A74DD17E1BE408FE0084C7B7 /* Motorcycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
+		A74DD1801BE409410084C7B7 /* Truck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Truck.swift; sourceTree = "<group>"; };
+		A74DD1821BE409BE0084C7B7 /* UIAlertController+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Convenience.swift"; sourceTree = "<group>"; };
+		A74DD1861BE40AC50084C7B7 /* VehicleList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +90,13 @@
 			isa = PBXGroup;
 			children = (
 				5DC89C6319BE274D00A75324 /* AppDelegate.swift */,
+				A74DD1821BE409BE0084C7B7 /* UIAlertController+Convenience.swift */,
+				A74DD1861BE40AC50084C7B7 /* VehicleList.swift */,
+				A74DD17C1BE407FD0084C7B7 /* Car.swift */,
 				5DC89C6519BE274D00A75324 /* VehicleListTableViewController.swift */,
 				5DC89C8219BE289D00A75324 /* Vehicle.swift */,
+				A74DD17E1BE408FE0084C7B7 /* Motorcycle.swift */,
+				A74DD1801BE409410084C7B7 /* Truck.swift */,
 				5DC89C6719BE274D00A75324 /* VehicleDetailViewController.swift */,
 				5DC89C6919BE274D00A75324 /* Main.storyboard */,
 				5DC89C6C19BE274D00A75324 /* Images.xcassets */,
@@ -216,10 +231,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A74DD1831BE409BE0084C7B7 /* UIAlertController+Convenience.swift in Sources */,
 				5DC89C8319BE289D00A75324 /* Vehicle.swift in Sources */,
 				5DC89C6819BE274D00A75324 /* VehicleDetailViewController.swift in Sources */,
+				A74DD1871BE40AC50084C7B7 /* VehicleList.swift in Sources */,
+				A74DD17D1BE407FD0084C7B7 /* Car.swift in Sources */,
 				5DC89C6619BE274D00A75324 /* VehicleListTableViewController.swift in Sources */,
+				A74DD17F1BE408FE0084C7B7 /* Motorcycle.swift in Sources */,
 				5DC89C6419BE274D00A75324 /* AppDelegate.swift in Sources */,
+				A74DD1811BE409410084C7B7 /* Truck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
